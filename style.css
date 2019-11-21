@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #620cb3;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width: 70%;
+    background-color: #bb86ec;
+    order: 2;
+}
+
+aside {
+    width: 30%;
+    background-color: #704896;
+    order: 1;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: #370c5f;
+}
